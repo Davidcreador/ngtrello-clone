@@ -1,0 +1,43 @@
+.boards-section-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.boards-section-list .boards-section-list-item {
+  background-color: #f7f7f7;
+  padding: 0 8px 8px 0;
+  margin: 0 16px 8px 0;
+  width: 25%;
+  border-radius: 8px;
+  list-style: none;
+  box-shadow: 0 1px 2px 1px #ccc;
+}
+
+.boards-section-list-item .board-card {
+  display: block;
+  line-height: 20px;
+  margin: 0 8px 8px 0;
+  padding: 8px;
+  position: relative;
+  text-decoration: none;
+}
+
+.board-card .board-card-details {
+  min-height: 64px;
+  padding-bottom: 16px;
+}
+
+.board-card .board-card-details span {
+  display: block;
+}
+
+.board-card .board-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+  overflow: hidden;
+  max-height: 40px;
+}

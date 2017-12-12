@@ -1,0 +1,19 @@
+<div class="boards">
+  <div class="boards-inner">
+    <div class="boards-section">
+      <div class="board-section-header">
+        <h3>Personal Board</h3>
+      </div>
+      <ul class="boards-section-list">
+        <li *ngFor="let card of cards" class="boards-section-list-item">
+          <a class="board-card" id="{{card.id}}" href="">
+            <div class="board-card-details">
+              <span class="board-card-title">{{card.name}}</span>
+              <span class="board-card-author">{{card.author}}</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
